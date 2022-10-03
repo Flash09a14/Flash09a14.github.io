@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Info page</title>
+    <link rel="stylesheet" href="aos-by-red.css">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+     <style>
+         *{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-size: 30px;
+  font-family: sans-serif;
+  background: #000000;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+.div{
+  height:50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #121313, #000000);
+  color: white;
+  margin: auto;
+}
+a.three:link{
+                color:black;
+                border-radius: 10%;
+            }
+            a.three:visited{
+                color:black;
+                border-radius: 10%;
+            }
+            a.three:link{
+                text-decoration: none;
+                border-radius: 10%;
+            }
+            a.three:active{
+                text-decoration: none;
+                border: 10%;
+            }
+            a.three:visited{
+                text-decoration: none;
+                border-radius: 10%;
+            }
+            a.three:hover{
+                background-color: grey;
+                border-radius: 10%;
+            }
+            a.three:hover:before{
+                width: 100;
+            }
+            a.three{
+                font-size: 100%;
+                border-radius: 10%;
+            }
+            a.three:hover{
+                background-color: grey;
+                -webkit-transition: color 1s;
+                -moz-transition: color 1s;
+                -ms-transition: color 1s;
+                -o-transition: color 1s;
+                transition: color 1s;
+                color: black;
+                border-radius: 10%;
+            }
+            a.three{
+                -webkit-transition: background-color 1s;
+                -moz-transition: background-color 1s;
+                -ms-transition: background-color 1s;
+                -o-transition: background-color 1s;
+                transition: background-color 1s;
+                border-radius: 10%;
+            }
+</style>
+  </head>
+  <body>
+    <div class="container">
+<!--------------------------------------------------------------->
+          <div class="div" data-aos="flip-down" data-aos-duration="1500">
+            <a href="https://github.com/Flash09a14" class="three" target="_blank">GITHUB</a>
+          </div>
+<!-- ------------------------------------------------------------->
+          <div class="div"  data-aos="flip-up" data-aos-duration="1500">
+              <a href="https://www.youtube.com/channel/UCwEdDNIu7oHOh5zLAkd_oaw" class="three" target="_blank">YOUTUBE</a>
+          </div>
+<!-- ------------------------------------------------------------->
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
+  </body>
+</html>
